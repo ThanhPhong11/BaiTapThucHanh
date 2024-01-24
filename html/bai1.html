@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px auto;
+        padding: 0px;
+    }
+    .wrapper{
+        height: 650px;
+        width: 1000px;
+        background-color: rgb(105, 193, 227);
+    }
+    header{
+        height: 50px;
+        width: 100%;
+        position: relative;
+        border-bottom: 2px dashed white ;
+    }
+    .menu li{
+        height: 50px;
+        width: 100px;
+        float: left;
+        list-style-type: none;
+        line-height: 50px;
+        font-size: 22px;
+        font-weight: bold;
+        
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+    p{
+        top:10px;
+        right: 20px;
+        font-size: 27px;
+        position: absolute;
+        font-weight: bold;
+        color:white;
+        text-shadow: 2px 2px blue;
+    }
+    .nav{
+        margin: 40px auto;
+        height: 460px;
+        width: 100%;
+        border-bottom: 2px dashed white;
+    }
+    .content{
+        height: 100%;
+        width: 50%;
+        float: left;
+    }
+    .section{
+        height: 100%;
+        width: 50%;
+        float: right;
+        position: relative;
+    }
+    .footer{
+        margin: 0px auto;
+        width: 100%;
+        text-align: center;
+    }
+    .ThongTin {
+            min-width: 250px;
+            display: inline-block;
+        }
+    label{
+        padding-top: 10px;
+        padding-left: 40px;
+        color: white;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        <p>Sky World</p>
+        </header>
+        <div class="nav">
+            <div class="content">
+                <h1 style="color: white;">Registration Information</h1>
+                <h4 style="color: white;">Start your travel planning now with our on-line tour regstration
+                    form. Just tell us a little about yourself and your group and one of our travel
+                    experts will contact  you  to create the perfect custom built for your group's needs .</h4>
+                <form action="" class="fiel">
+                    <label for="Title" class="ThongTin">Title</label>
+                    <select name="" id="Title" style="width: 70px;">
+                        <option value="">Mr</option>
+                        <option value="">Ms</option>
+                        <option value="">Mrs</option>
+                    </select>
+                    <br>
+                    <label  for="" class="ThongTin">Full Name:</label>
+                    <input type="text" name="" id="" placeholder="First Name"> 
+                    <br>
+                    <label for="" class="ThongTin">Mainding Address:</label>
+                    <input type="text" name="" id="" placeholder="Mainding Address"> 
+                    <br>
+                    <label for="" class="ThongTin">City:</label>
+                    <input type="text" name="" id="" placeholder="City"> 
+                    <br>
+                    <label for="" class="ThongTin">Country:</label>
+                    <input type="text" name="" id="" placeholder="Country"> 
+                    <br>
+                    <label for="" class="ThongTin">Specific question or <br> requests about your tour:</label>
+                    <input type="text" style="height: 70px;" name="" id="" placeholder="Specific question or requests about your tour:"> <br>
+                    <br>
+                    <label for="" class="ThongTin"></label>
+                    <input type="button" name="" id="" value="Submit">
+                    <input type="button" name="" id="" value="Reset">
+                </form>
+            </div>
+            <div class="section">
+                <img src="../img/sky.png" alt="" height="75%" width="90%">
+                <h1 style="text-shadow: 4px 4px 2px blue; padding-left: 10px ; padding-top: 10px; font-size: 30px;">Your've arrived.</h1>
+                <h2 style="padding-left: 30px; color: blue;">Journeys as great as the destinations</h2>
+            </div>
+        </div>
+        <div class="footer">
+            <h2 style="color: white;">2016 Sky World Tours. All rights reserved.</h2>
+            <h3 style="color: white;">COntact information: Student Name | StudentID | Testing Date </h3>
+        </div>
+    </div>
+</body>
+</html>
